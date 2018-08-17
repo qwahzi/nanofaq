@@ -1,4 +1,4 @@
-# A community updated version of the official Nano FAQ
+# A community-updated version of the official Nano FAQ
 **What is Nano?**
 
 - Nano is a trustless, low-latency cryptocurrency that utilizes a novel block-lattice architecture, where each account has its own blockchain and achieves consensus via delegated Proof of Stake voting.
