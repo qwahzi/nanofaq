@@ -3,11 +3,11 @@
 
 Nano is a trustless, low-latency cryptocurrency that uses a novel block-lattice architecture, where each account has its own blockchain and consensus is achieved through delegated Proof of Stake voting.
 
-- It offers near instant transactions, with 0 transaction fees, and unlimited scalability. This makes Nano ideal for peer-to-peer transactions.
+It offers near instant transactions, with 0 transaction fees, and unlimited scalability. This makes Nano ideal for peer-to-peer transactions.
 
-- The network requires minimal resources, no mining, and can process high transaction throughput. 
+The network requires minimal resources, no mining, and can process high transaction throughput. 
 
-- To date, the Nano network has processed over four million transactions with an unpruned ledger size of only 1.7GB.
+To date, the Nano network has processed over four million transactions with an unpruned ledger size of only 1.7GB.
 
 For a more in-depth look at Nano, please read our [whitepaper](https://nano.org/en/whitepaper).
 
