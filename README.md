@@ -43,6 +43,18 @@ Please see our [Team Page](https://nano.org/en/team/).
 
 Nano is not mined and has reached its maximum supply of 133,248,290 NANO. Funds were initially distributed via a captcha-based faucet distribution system that ended in October 2017. Websites claiming to mine NANO are actually mining other cryptocurrencies (e.g. Monero), to trade for NANO on an exchange, and then paying out miners in NANO, leveraging Nano’ feeless transactions.
 
+**What is the incentive to run a node?**
+
+While there is no direct monetary incentive (e.g. mining) to run a node, there are multiple indirect incentives:
+
+- Businesses wanting to cut costs from credit & debit card fees (0.5%-3%)
+
+- Supporting the network so you can take advantage of its benefits (0 transaction fees, near instant transactions, etc)
+
+- Ideological, political, and personal incentives like providing people with access to global finance
+
+Some examples of these kinds of incentives working successfully include Wikipedia and Bitcoin full nodes.
+
 **Where is the Nano community located?**
 
 - Discord: [chat.nano.org](https://chat.nano.org)
