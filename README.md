@@ -31,7 +31,7 @@ Wallets pre-cache the anti-spam Proof of Work for the next transaction once a tr
 
 *Scalability*
 
-Transaction throughput has been tested at over [300 transactions per second (TPS)](https://medium.com/@bnp117/stress-testing-the-raiblocks-network-part-ii-def83653b21f) on the live network, and the network was still not saturated. That test was only limited by the tester's ability to pre-compute the Proof of Work necessary for each transaction. Nano has been [profiled at 7000 TPS](https://www.reddit.com/r/RaiBlocks/comments/7ko5l7/colin_lemahieu_founder_and_lead_developer_of/drj44qv/) on commodity hardware.
+Transaction throughput has been tested at over [300 transactions per second (TPS)](https://medium.com/@bnp117/stress-testing-the-raiblocks-network-part-ii-def83653b21f) on the live network, and the network was still not saturated. That test was only limited by the tester's ability to pre-compute the Proof of Work necessary for each transaction, and additional live stress tests are planned. Nano has been [profiled at 7000 TPS](https://www.reddit.com/r/RaiBlocks/comments/7ko5l7/colin_lemahieu_founder_and_lead_developer_of/drj44qv/) on commodity hardware.
 
 Transaction lookups scale with the logarithm of the data set size logNO with a tree-like structure or O1 if they are based on a hash table. To get an idea of how this scales, if it was a simple binary tree with 1,000 entries it would take 10 lookups. With 1,000,000 entries it takes 20 and 1 billion would take 30. Pruned nodes only need to keep the latest block of each account-chain, further reducing lookup time and system resources.
 
