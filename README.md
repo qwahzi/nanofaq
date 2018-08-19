@@ -1,13 +1,15 @@
 # A community-updated version of the official Nano FAQ
 **What is Nano?**
 
-- Nano is a trustless, low-latency cryptocurrency that uses a novel block-lattice architecture, where each account has its own blockchain and consensus is achieved through delegated Proof of Stake voting.
+Nano is a trustless, low-latency cryptocurrency that uses a novel block-lattice architecture, where each account has its own blockchain and consensus is achieved through delegated Proof of Stake voting.
 
 - It offers near instant transactions, with 0 transaction fees, and unlimited scalability. This makes Nano ideal for peer-to-peer transactions.
 
-- The network requires minimal resources, no mining, and can process high transaction throughput. To date, the Nano network has processed over four million transactions with an unpruned ledger size of only 1.7GB.
+- The network requires minimal resources, no mining, and can process high transaction throughput. 
 
-- For a more in-depth look at Nano, please read our [whitepaper](https://nano.org/en/whitepaper).
+- To date, the Nano network has processed over four million transactions with an unpruned ledger size of only 1.7GB.
+
+For a more in-depth look at Nano, please read our [whitepaper](https://nano.org/en/whitepaper).
 
 **How does Nano work?**
 
@@ -15,7 +17,7 @@ Unlike conventional blockchains used in many other cryptocurrencies, Nano uses a
 
 Since blocks can only be added by each account-chain’s owner, transferring funds from one account to another requires two transactions: a send transaction deducting the amount from the sender’s balance and a receive transaction adding the amount to the receiving account’s balance.
 
-- Refer to sections three and four of the [whitepaper](https://nano.org/en/whitepaper) for a more thorough look at how Nano works.
+Refer to sections three and four of the [whitepaper](https://nano.org/en/whitepaper) for a more thorough look at how Nano works.
 
 **What are the advantages of Nano?**
 
@@ -28,6 +30,8 @@ Because the protocol is incredibly lightweight and running a node costs next to 
 Wallets pre-cache the anti-spam Proof of Work for the next transaction once a transaction is sent, making transactions instantaneous, as both sides have the proof of work ready to go. For ongoing transactions there may be delays, but this is intentional to prevent spam.
 
 *Scalability*
+
+Transaction throughput has been tested at over [300 transactions per second](https://medium.com/@bnp117/stress-testing-the-raiblocks-network-part-ii-def83653b21f) (TPS) on the live network, and the network was still not saturated. That particular test was limited by the tester's ability to pre-compute the Proof of Work necessary for each transaction. Nano has been [profiled at 7000 TPS](https://www.reddit.com/r/RaiBlocks/comments/7ko5l7/colin_lemahieu_founder_and_lead_developer_of/drj44qv/) on commodity hardware.
 
 Transaction lookups scale with the logarithm of the data set size logNO with a tree-like structure or O1 if they are based on a hash table. To get an idea of how this scales, if it was a simple binary tree with 1,000 entries it would take 10 lookups. With 1,000,000 entries it takes 20 and 1 billion would take 30. Pruned nodes only need to keep the latest block of each account-chain, further reducing lookup time and system resources.
 
