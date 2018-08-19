@@ -83,7 +83,7 @@ Nano has multiple wallet options on all major platforms:
 
 **What are Nano’ units?**
 
-The NANO ticker currently represents 1 million nano (Mnano), which is 10^30 raw (the smallest unit of Nano)
+The NANO ticker currently represents 1 million nano (Mnano), which is 10^30 raw (the smallest unit of Nano).
 
 Nano’ smallest unit is 1 raw (equivalent to a satoshi in Bitcoin), while 1 Gnano is the largest. 
 
