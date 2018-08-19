@@ -53,7 +53,7 @@ While there is no direct monetary incentive (e.g. mining) to run a node, there a
 
 - Ideological, political, and personal incentives like providing people with access to global finance
 
-Some examples of these kinds of incentives working successfully include Wikipedia and Bitcoin full nodes.
+Examples of these kinds of incentives working successfully include Wikipedia and Bitcoin full nodes.
 
 **Where is the Nano community located?**
 
