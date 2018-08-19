@@ -13,11 +13,11 @@
 
 **How does Nano work?**
 
-Unlike conventional blockchains used in many other cryptocurrencies, Nano uses a block-lattice structure. Each account has its own blockchain (account-chain), which contains the account’s transaction/balance history. An account-chain can only be updated by the account’s owner, meaning that each account-chain can be updated immediately and asynchronously from the rest of the block-lattice. This results in quick transactions. 
+- Unlike conventional blockchains used in many other cryptocurrencies, Nano uses a block-lattice structure. Each account has its own blockchain (account-chain), which contains the account’s transaction/balance history. An account-chain can only be updated by the account’s owner, meaning that each account-chain can be updated immediately and asynchronously from the rest of the block-lattice. This results in quick transactions. 
 
-Since blocks can only be added by each account-chain’s owner, transferring funds from one account to another requires two transactions: a send transaction deducting the amount from the sender’s balance and a receive transaction adding the amount to the receiving account’s balance.
+- Since blocks can only be added by each account-chain’s owner, transferring funds from one account to another requires two transactions: a send transaction deducting the amount from the sender’s balance and a receive transaction adding the amount to the receiving account’s balance.
 
-Refer to sections three and four of the [whitepaper](https://nano.org/en/whitepaper) for a more thorough look at how Nano works.
+- Refer to sections three and four of the [whitepaper](https://nano.org/en/whitepaper) for a more thorough look at how Nano works.
 
 **What are the advantages of Nano?**
 
