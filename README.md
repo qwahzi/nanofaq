@@ -23,7 +23,7 @@
 
 *Zero Fees*
 
-Because the protocol is incredibly lightweight and running a node costs next to nothing, Nano transactions are processed with no fees. One transaction fits within a single UDP packet, and transactions are handled independently, eliminating any block size issues.
+Because the protocol is incredibly lightweight and running a node costs next to nothing, Nano transactions are processed with no fees. One transaction fits within a single UDP packet, and transactions are handled independently, eliminating any block size issue.
 
 *Instantaneous Transaction Speed*
 
