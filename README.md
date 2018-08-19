@@ -23,15 +23,15 @@
 
 *Zero Fees*
 
-Because the protocol is incredibly lightweight and running a node costs next to nothing, Nano transactions are processed with no fees. One transaction fits within a single UDP packet, and transactions are handled independently, eliminating any block size issue.
+Since the protocol is so lightweight, running a node costs next to nothing. This means that all Nano transactions can be processed with no fees. One transaction fits within a single UDP packet, and transactions are handled independently, eliminating any block size issue.
 
 *Instantaneous Transaction Speed*
 
-Wallets pre-cache the anti-spam Proof of Work for the next transaction once a transaction is sent, making transactions instantaneous, as both sides have the proof of work ready to go. For ongoing transactions there may be delays, but this is intentional to prevent spam.
+Wallets pre-cache the anti-spam Proof of Work for the next transaction once a transaction is sent, making transactions instantaneous (since both sides have the Proof of Work ready to go). For ongoing transactions there may be delays, but this is intentional to prevent spam.
 
 *Scalability*
 
-Transaction throughput has been tested at over [300 transactions per second (TPS)](https://medium.com/@bnp117/stress-testing-the-raiblocks-network-part-ii-def83653b21f) on the live network, and the network was still not saturated. That test was only limited by the tester's ability to pre-compute the Proof of Work necessary for each transaction, and additional live stress tests are planned. Nano has been [profiled at 7000 TPS](https://www.reddit.com/r/RaiBlocks/comments/7ko5l7/colin_lemahieu_founder_and_lead_developer_of/drj44qv/) on commodity hardware.
+Nano has been [profiled at 7000 transactions per second (TPS)](https://www.reddit.com/r/RaiBlocks/comments/7ko5l7/colin_lemahieu_founder_and_lead_developer_of/drj44qv/) on commodity hardware, and the production network has been successfully tested at over [300 TPS](https://medium.com/@bnp117/stress-testing-the-raiblocks-network-part-ii-def83653b21f) (limited only by the tester's ability to pre-compute Proof of Work). Additional live stress tests are planned, but Nano appears to be limited only by currently available hardware. The protocol will process transactions as fast as hardware will allow.
 
 Transaction lookups scale with the logarithm of the data set size logNO with a tree-like structure or O1 if they are based on a hash table. To get an idea of how this scales, if it was a simple binary tree with 1,000 entries it would take 10 lookups. With 1,000,000 entries it takes 20 and 1 billion would take 30. Pruned nodes only need to keep the latest block of each account-chain, further reducing lookup time and system resources.
 
@@ -73,11 +73,11 @@ Nano has multiple wallet options on all major platforms:
 
 The NANO ticker currently represents 1 million nano (Mnano), which is 10^30 raw (the smallest unit of Nano)
 
+Nano’ smallest unit is 1 raw (equivalent to a satoshi in Bitcoin), while 1 Gnano is the largest. 
+
 - 1 NANO equals 1 Mnano equals 1 million nano equals 10^30 raw
 
 - 1 NANO (uppercase) does NOT equal 1 nano (lowercase). 1 NANO currently equals 1 Mnano
-
-Nano’ smallest unit is 1 raw (equivalent to a satoshi in Bitcoin), while 1 Gnano is the largest. 
 
 NANO is the ticker used on exchanges/software to trade Mnano.
 
@@ -99,9 +99,7 @@ A list of current representatives, sorted by voting power, can be found [here](h
 
 **Is Nano vulnerable to attacks?**
 
-Nano, like all decentralized cryptocurrencies, may be attacked by malicious parties for attempted financial gain or system demise.
-
-In section five of the [whitepaper](https://nano.org/en/whitepaper), we outline multiple attack scenarios, the consequences of such an attack, and Nano’ protocol for dealing with each attack. 
+Nano, like all decentralized cryptocurrencies, may be attacked by malicious parties for attempted financial gain or system demise. In section five of the [whitepaper](https://nano.org/en/whitepaper), we outline multiple attack scenarios, the consequences of such an attack, and Nano’ protocol for dealing with each attack. 
 
 A summary of attacks and how Nano mitigates them can be found on the [official Nano GitHub](https://github.com/nanocurrency/raiblocks/wiki/Attacks).
 
