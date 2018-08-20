@@ -87,6 +87,8 @@ Nano has multiple wallet options on all major platforms:
 
 - Desktop, mobile, and online wallets can be found on [the Nano website](https://nano.org/en#getwallets)
 
+- Some of the most popular community wallets are [Canoe](https://getcanoe.io/), [NanoVault.io](http://nanovault.io), and [NanoWallet.io](https://nanowallet.io/).
+
 - An integrated wallet within the Telegram app is available here [https://t.me/RaiWalletBot](https://t.me/RaiWalletBot)
 
 **What are Nano’ units?**
