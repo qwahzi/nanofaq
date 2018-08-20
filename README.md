@@ -35,6 +35,12 @@ Nano has been [profiled at 7000 transactions per second (TPS)](https://www.reddi
 
 Transaction lookups scale with the logarithm of the data set size logNO with a tree-like structure or O1 if they are based on a hash table. To get an idea of how this scales, if it was a simple binary tree with 1,000 entries it would take 10 lookups. With 1,000,000 entries it takes 20 and 1 billion would take 30. Pruned nodes only need to keep the latest block of each account-chain, further reducing lookup time and system resources.
 
+*Energy Efficient*
+
+Nano only consumes around 0.111 Wh per transaction (vs Bitcoin's 950 kWh), meaning  that you can make EIGHT MILLION transactions for the same power usage as a SINGLE Bitcoin transaction. This means that the Nano network is so efficient it could run on a single wind turbine! 
+
+Nano is green! [https://youtu.be/JChBTohSHlM](https://youtu.be/JChBTohSHlM)
+
 **Who is the team behind Nano?**
 
 Please see our [Team Page](https://nano.org/en/team/).
@@ -58,6 +64,8 @@ Examples of these kinds of incentives working successfully include Wikipedia and
 **Where is the Nano community located?**
 
 - Discord: [chat.nano.org](https://chat.nano.org)
+
+- Facebook: [facebook.com/Nanocurrency/](https://www.facebook.com/nanocurrency/)
 
 - Reddit: [/r/Nanocurrency](https://www.reddit.com/r/nanocurrency/)
 
